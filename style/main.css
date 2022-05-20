@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Yekan";
+    src: url("../fonts/Yekan.eot");
+    src: url("../fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Yekan.woff") format("woff"),
+        url("../fonts/Yekan.ttf") format("truetype");
+    
+}
+body {
+    direction: rtl;
+    text-align: right !important;
+    font-family: "Yekan" !important;
+    padding-top: 70px;
+}
+.dashed-border{
+    outline: 3px dashed #fff;
+    outline-offset: -10px;
+}
+
+.hover-image:hover{
+    opacity: 0.7;
+}
+.color-lightblue {
+    background: rgb(93, 218, 240);
+    color: #fff;
+}
+.bg-lightpink{
+    background: rgb(228, 207, 207);
+}
+.bg-purple{
+    background: rgb(208, 196, 252);
+}
+.bg-pink{
+    background: rgb(248, 192, 192);
+}
+.bg-skyblue {
+    background: rgb(153, 211, 250);
+    color: #fff;
+}
+.footer-img{
+    background: url(/img/footer-img.jpg) no-repeat center center/cover;
+    
+}
